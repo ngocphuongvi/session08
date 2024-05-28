@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    color: #231651;
     text-decoration: none;
 }
 
@@ -258,7 +257,8 @@
     -moz-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
 }
 
-.method-item:hover {
+.method-item:hover,
+.method-item h4:hover {
     background-color: #d72c34;
     color: white;
 }
@@ -354,16 +354,17 @@
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    gap: 15px;
-    padding-top: 8px;
+    padding: 5px 0;
+
 }
 
-.story .story-item-wrapper .story-item button {
+.story .story-item-wrapper .story-item h4 .story-btn {
     border: 1px solid #c1bcd1;
     border-radius: 5px;
-    padding: 3px;
     font-size: 12px;
     font-weight: 500;
+    margin-left: 10px;
+    padding: 0 5px;
 }
 
 .story .class-img {
@@ -451,10 +452,10 @@
     text-align: center;
 }
 
-/* .professor .professor-wrapper .professor-view:hover {
+.professor .professor-wrapper .professor-view:hover {
     background-color: #231651;
     color: white;
-} */
+}
 
 /* REGISTER SECTION CSS */
 
@@ -497,7 +498,7 @@
 
 .register-form input,
 select,
-button {
+.register-btn {
     width: 100%;
     padding: 8px;
     margin: 7px;
@@ -565,8 +566,19 @@ button {
     padding: 50px 150px;
     background-color: #bc2229;
     color: white;
+    font-size: 13px;
+    line-height: 1.7;
 }
 
 .footer .logo {
     width: 200px;
+}
+
+.footer .information .adress ul {
+    list-style: none;
+}
+
+.footer .information .adress ul li {
+    display: flex;
+    gap: 5px;
 }
