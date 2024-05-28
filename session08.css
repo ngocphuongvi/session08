@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #231651;
+    text-decoration: none;
+}
+
+/*---------- NAVBAR CSS---------- */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    ;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.navbar-container .logo img {
+    width: 170px;
+}
+
+.navbar-container .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-container .main-nav div,
+.navbar-container .language {
+    font-weight: 500;
+}
+
+.navbar-container .language {
+    padding: 5px 10px;
+    height: 30px;
+    background-color: #f8f7fa;
+    border: none;
+    border-radius: 5px;
+}
+
+/*----------HERO SECTION CSS---------- */
+
+.hero-section {
+    display: flex;
+    background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.hero-section .hero-img {
+    width: 600px;
+}
+
+.hero-section .main-content-wrapper .main-content-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-section .main-content-wrapper .benefit-list {
+    list-style: none;
+}
+
+.hero-section .main-content-wrapper .benefit-list li {
+    margin-bottom: 16px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .main-content-wrapper .benefit-list li img {
+    margin-right: 5px;
+}
+
+.hero-section .button-group .btn {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2229;
+    color: white;
+}
+
+.hero-section .button-group .test-button {
+    background-color: transparent;
+    border: 1px solid #c1bcd1;
+    color: #231651;
+}
+
+/* BENEFIT SECTION CSS */
+
+.benefit-section {
+    position: relative;
+    background-color: #f8f7fa;
+}
+
+.benefit-section .benefit-wrapper {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    padding: 0 150px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.benefit-section .benefit-wrapper .benefit-item {
+    border: 1px solid #c1bcd1;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    line-height: 1.5;
+
+}
+
+.benefit-section .benefit-item h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #bc2229;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+
+}
+
+.video img {
+    margin: 150px 35px 100px 150px;
+}
+
+.video .main-content {
+    margin-right: 100px;
+}
+
+.video .main-content h3 {
+    font-size: 25px;
+    color: #bc2229;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.video .main-content p {
+    color: #231651;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+/* <!-- ADVANTAGE SECTION CSS --> */
+.advantage {
+    margin: 100px 140px;
+}
+
+.advantage-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advantage h3 {
+    font-size: 25px;
+    color: #bc2229;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.advantage-item {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    color: #231651;
+    padding: 25px;
+}
+
+.advantage-item img {
+    width: 45px;
+}
+
+.advantage-item h4 {
+    color: #bc2229;
+}
+
+.advantage-button {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage-button .btn {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2229;
+    color: white;
+}
+
+.advantage-button .test-button {
+    background-color: transparent;
+    border: 1px solid #c1bcd1;
+    color: #231651;
+}
+
+/* METHOD SECTION CSS */
+.method {
+    background-color: #f8f7fa;
+    padding: 100px 150px;
+}
+
+.method h3 {
+    font-size: 25px;
+    color: #bc2229;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.method-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.method-item {
+    background-color: white;
+    color: #231651;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 1.7;
+    border: 1px solid #efedf5;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(214, 208, 208, 0.75);
+}
+
+.method-item:hover {
+    background-color: #d72c34;
+    color: white;
+}
+
+.method-item h4 {
+    color: #231651;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.method-item ul {
+    list-style: none;
+}
+
+.method-item i {
+    color: #e7abab;
+}
+
+.method-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.method-button .btn {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2229;
+    color: white;
+}
+
+.method-button .test-button {
+    background-color: transparent;
+    border: 1px solid #c1bcd1;
+    color: #231651;
+}
+
+/* STORY SECTION CSS */
+.story {
+    padding: 100px 150px;
+}
+
+.story .story-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.story .story-title h3 {
+    width: 100%;
+    font-size: 25px;
+    color: #bc2229;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.story .story-title p {
+    width: 100%;
+    color: #231651;
+    line-height: 1.7;
+}
+
+.story .story-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.story .story-item-wrapper .story-item {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.story .story-item-wrapper .story-item img {
+    width: 555px;
+    height: 333px;
+}
+
+.story .story-item-wrapper .story-item p {
+    color: #231651;
+    font-size: 15px;
+}
+
+.story .story-item-wrapper .story-item h4 {
+    color: #231651;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+    padding-top: 8px;
+}
+
+.story .story-item-wrapper .story-item button {
+    border: 1px solid #c1bcd1;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.story .class-img {
+    padding-top: 20px;
+}
+
+/* PROFESSOR SECTION CSS */
+
+.professor {
+    padding: 50px 150px;
+}
+
+.professor .professor-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.professor .professor-title h3 {
+    width: 100%;
+    font-size: 25px;
+    color: #bc2229;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.professor .professor-title p {
+    font-size: 15px;
+    width: 100%;
+    color: #231651;
+    line-height: 1.7;
+}
+
+.professor .professor-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.professor .professor-wrapper .professor-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    height: 500px;
+    border: 1px solid #c1bcd1;
+    border-radius: 5px;
+}
+
+
+
+
+.professor .professor-wrapper .professor-view img {
+    width: 230px;
+    height: 220px;
+    border: 1px solid #efedf5;
+    border-radius: 5px;
+    margin: 13px;
+}
+
+.professor .professor-view h4 {
+    color: #231651;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.professor .professor-wrapper .professor-view button {
+    border: 1px solid #c1bcd1;
+    margin: 1px 80px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.professor .professor-wrapper .professor-view .btn {
+    margin: 1px 40px;
+}
+
+.professor .professor-wrapper .professor-view p {
+    line-height: 1.7;
+    margin-left: 15px;
+    text-align: center;
+}
+
+/* .professor .professor-wrapper .professor-view:hover {
+    background-color: #231651;
+    color: white;
+} */
+
+/* REGISTER SECTION CSS */
+
+.register {
+    padding: 80px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-contact.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.register .register-content h3 {
+    color: white;
+    background-color: #bc2229;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.register .register-content p {
+    color: white;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.register-form {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5;
+    border: 1px solid #231651;
+    border-radius: 5px;
+}
+
+.register-form input,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 7px;
+}
+
+.register-form h3 {
+    color: #231651;
+    padding-left: 7px;
+    font-weight: 450;
+}
+
+.register-form button {
+    background-color: #bc2229;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* NEWS SECTION CSS */
+.news {
+    padding: 100px 150px;
+    background-color: #efedf5;
+}
+
+.news h3 {
+    color: #bc2229;
+}
+
+.news-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.news-item-wrapper .news-item {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #c1bcd1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item-wrapper .news-item img {
+    width: 320px;
+    height: 230px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.news-item-wrapper .news-item a {
+    margin: 15px;
+    margin-top: 0;
+    color: #231651;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* FOOTER SECTION CSS */
+.footer {
+    padding: 50px 150px;
+    background-color: #bc2229;
+    color: white;
+}
+
+.footer .logo {
+    width: 200px;
+}
